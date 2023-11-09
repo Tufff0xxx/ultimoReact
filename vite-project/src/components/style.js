@@ -3,10 +3,11 @@ import styled from "styled-components";
 export const HeaderContainer = styled.div`
 
     display:flex;
-    justify-content:space-around;
+    justify-content:center;
     align-items:center;
-    max-width:1200px;
-    margin:0 auto;
+    text-align:center;
+    
+    
     padding: 25px;
     gap:30px;
     h1{
@@ -15,9 +16,15 @@ export const HeaderContainer = styled.div`
     }
     p{
         text-align:center;
+        
     }
     @media (max-width:1000px) {
             flex-direction:column
+    }
+    @media (max-width: 468px) {
+        display: flex;
+        justify-content:center;
+        margin-right:25px;
     }
 
 `
@@ -29,7 +36,7 @@ export const HeaderTextContainer = styled.div`
     justify-content:space-around;
     align-items:center;
     width:50%;
-    padding-left:50px;
+    ;
     
     h1{
         font-size:3.5rem;

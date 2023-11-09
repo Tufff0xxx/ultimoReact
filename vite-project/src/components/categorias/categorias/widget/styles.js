@@ -6,12 +6,12 @@ export const CategoriasWrapper = styled.div`
 display:flex;
 flex-direction:column;
 
-max-width:1300px;
-margin: 0 px;
+
+
 width:100%;
 
 @media (max-width:768px) {
-    padding-top: 30px;
+    
     text-align: center;
 }
 
@@ -19,17 +19,18 @@ width:100%;
 export const CategoriasTitle = styled.div`
 
 display:flex;
-flex-direction:column;
+
+justify-content:center;
 align-items:center;
 text-align:center;
 width:100%;
-max-width:1300px;
+
 background-color:red;
-margin-left:22px;
+
 
 
 @media (max-width:768px) {
-    padding-top: 30px;
+    
     text-align: center;
 }
 

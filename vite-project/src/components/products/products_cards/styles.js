@@ -12,7 +12,7 @@ export const CardConteiner = styled.div`
 
 ` 
 
-export const ButtonContainer = styled(motion.div)`
+export const ButtonAdd = styled(motion.div)`
 
 
   background-color: pink;
@@ -23,5 +23,15 @@ export const ButtonContainer = styled(motion.div)`
   background-color:red;
   box-shadow: 0px 0px 5px 5px black;
   cursor: pointer;
+
+`
+
+export const ButtonConteiner = styled.div`
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
 
 `

@@ -6,6 +6,8 @@ export const CardCategory = styled(motion.div)`
     display:flex;
     flex-direction:column;
     width:150px;
+    justify-content:center;
+    text-align:center;
     padding:2rem 0.5rem;
     background-color: ${({selected}) =>  selected ? "var(o--orange" : ":var(--gray-bg)"};
     border-radius:15px;

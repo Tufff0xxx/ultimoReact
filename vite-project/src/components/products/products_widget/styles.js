@@ -8,7 +8,7 @@ flex-direction:column;
 align-items:center;
 width:100%;
 max-width:1300px;
-margin: 0 15px;
+
 h2{
     
 }
@@ -65,10 +65,14 @@ export const ButtonDiv = styled.div`
     padding-top:15px;
     
     button{
-        background-color:red;
-        color:black;
-        border-radius:15px;
         
+        border: 2px red;
+        border-radius: 5px;
+        color: red;
+        padding: 10px;
+        background-color:black;
+        box-shadow: 0px 0px 5px 5px red;
+        cursor: pointer;
     }
 
 
