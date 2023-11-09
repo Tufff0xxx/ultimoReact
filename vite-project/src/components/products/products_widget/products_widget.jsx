@@ -1,12 +1,15 @@
 import React from 'react';
 import { ProductsCards } from '../products_cards/products_cards';
 import { producst } from '../../categorias/data/products';
-import { ButtonDiv, ProductsContainer, ProductsWrapper } from './styles';
+import { ButtonDiv, ProductsContainer, ProductsTitle, ProductsWrapper } from './styles';
 
 export const ProductsWidget = () => {
   return (
     <ProductsWrapper>
-      <h2>PRODUCTOS</h2>
+      <ProductsTitle>
+          <h2>PRODUCTOS</h2>
+      </ProductsTitle>
+      
       <ProductsContainer>
         {producst.map((product) => (
           <ProductsCards

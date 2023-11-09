@@ -14,7 +14,7 @@ export const HomeScreen = () => {
       <Header/>
       <CategoriaWidget></CategoriaWidget>
       <ProductsWidget></ProductsWidget>
-      <Footer></Footer> 
+      <Footer></Footer>
         
       
     </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { CardConteiner } from './styles'
+import { ButtonContainer, CardConteiner } from './styles'
 export const ProductsCards = ({img, title, desc, price}) => {
   return (
     <CardConteiner>
@@ -9,7 +9,13 @@ export const ProductsCards = ({img, title, desc, price}) => {
         <p>{desc}</p>
         <div>
             <p>${price}</p>
-            <button>Agregar</button>
+            <ButtonContainer whileTap={{scale:0.95}}>
+            
+                Agregar
+            </ButtonContainer>
+            
+            
+            
         </div>
     </CardConteiner>
   )
