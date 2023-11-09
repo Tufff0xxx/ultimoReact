@@ -24,7 +24,7 @@ export const HeaderContainer = styled.div`
     @media (max-width: 468px) {
         display: flex;
         justify-content:center;
-        margin-right:25px;
+        
     }
 
 `
