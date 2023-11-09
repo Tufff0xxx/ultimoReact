@@ -45,3 +45,18 @@ export const ProductsContainer = styled.div`
     }
 
 `
+export const ButtonDiv = styled.div`
+
+    display:flex;
+    justify-content:center;
+    padding-top:15px;
+    
+    button{
+        background-color:red;
+        color:black;
+        border-radius:15px;
+        
+    }
+
+
+`

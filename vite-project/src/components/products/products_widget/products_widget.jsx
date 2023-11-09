@@ -1,7 +1,7 @@
 import React from 'react';
 import { ProductsCards } from '../products_cards/products_cards';
 import { producst } from '../../categorias/data/products';
-import { ProductsContainer, ProductsWrapper } from './styles';
+import { ButtonDiv, ProductsContainer, ProductsWrapper } from './styles';
 
 export const ProductsWidget = () => {
   return (
@@ -18,10 +18,9 @@ export const ProductsWidget = () => {
           />
         ))}
       </ProductsContainer>
-      <div>
+      <ButtonDiv>
         <button>Ver mas</button>
-        <button>Ver menos</button>
-      </div>
+      </ButtonDiv>
     </ProductsWrapper>
   );
 };

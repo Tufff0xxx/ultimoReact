@@ -27,7 +27,7 @@ export const HeaderTextContainer = styled.div`
     display:flex;
     flex-direction:column;
     justify-content:space-around;
-    align-items:flex-start;
+    align-items:center;
     width:50%;
     padding-left:50px;
     
